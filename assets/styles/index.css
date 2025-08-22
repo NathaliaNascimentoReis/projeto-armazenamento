@@ -20,7 +20,7 @@ h2 {
 
 .flex-container {
     width: 97%;
-    height: 80px;
+    height: 200px;
     background-color: rgb(233, 193, 243);
     margin: 0 auto 20px;
     border-radius: 8px;
@@ -49,4 +49,12 @@ h2 {
 
 .flex-end{
     justify-content: end;
+}
+
+.flex-column{
+    flex-direction: column;
+}
+
+.justify-between {
+    justify-content: space-between;
 }
