@@ -1,0 +1,35 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.row-reverse {
+    height: 100vh;
+    margin: 40px auto;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.row-item1{
+    width: 150px;
+    height: 150px;
+    background-color: rgb(238, 205, 162);
+    margin: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.row-item2{
+    width: 150px;
+    height: 150px;
+    background-color: rgb(208, 162, 238);
+    margin: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
