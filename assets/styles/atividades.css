@@ -1,0 +1,13 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.flex-container {
+    width: 30%;
+    height: 170px;
+    background-color: rgb(233, 193, 243);
+    margin: 40px auto;
+    margin-top: 5%;
+}
