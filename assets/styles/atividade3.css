@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.semaforo-cores {
+    height: 100vh;
+    display:flex;
+    gap: 15px;
+    padding: 10px;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 8px;
+    justify-content: center;
+    align-items: center;
+}
+
+.luz-vermelha {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: red;
+}
+.luz-amarela {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: rgb(251, 255, 0);
+}
+.luz-verde {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: rgb(9, 255, 0);
+}
